@@ -1,0 +1,88 @@
+body {
+    background: #1a1a1a;
+
+}
+.contenedores {
+    width: 90%;
+    max-width: 1600px;
+    height: 550px;
+    /*border: 1px solid white;*/
+    margin: 120px auto;
+}
+#fila {
+    width: 100%;
+    display: flex;
+}
+
+#foto {
+    width: 20%;
+    padding-left: 30px;
+    padding-top: 50px;
+  
+    
+
+}
+#info {
+    width: 80%;
+    padding-left: 30px;
+}
+
+#info h2 {
+    color: #00f29e;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Fugaz One', cursive;
+    margin-bottom: 0;
+}
+
+#info h1 {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Fugaz One', cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+#info p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    text-align: justify;
+    width: 92%;
+}
+
+#info article {
+    border: 2px solid #00f29e;
+    width: 92%;
+    
+}
+
+#info article ul li {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 12px;
+
+}
+
+#info #Redes {
+    margin-top: 14px;
+    width: 92%;
+}
+
+#info #Redes a{
+    margin:0 5px;
+}
+#info #Redes a img {
+    transition: .5;
+
+}
+
+#info #Redes a img:hover {
+    transform: scale(1.2);
+}
